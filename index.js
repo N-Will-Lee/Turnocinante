@@ -82,4 +82,8 @@ const getLastMsgs = async (msg) => {
 
 };
 
-client.login(config.DISCORD_TOKEN);
+const startBot = () => {
+    client.login(config.DISCORD_TOKEN);
+};
+
+module.exports = { startBot };
